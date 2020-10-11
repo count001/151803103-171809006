@@ -1,0 +1,152 @@
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .bg-container {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background: url(./background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.3;
+            z-index: -3;
+        }
+        
+        .node circle {
+            fill: rgba(152, 68, 22, 0.7);
+            stroke: rgba(152, 58, 32, 0.7);
+            stroke-width: 3px;
+        }
+        
+        .node rect {
+            fill: #291002ca;
+            stroke: rgba(100, 119, 102, 0.7);
+            stroke-width: 2px;
+        }
+        
+        .node text {
+            font: 15px sans-serif;
+        }
+        
+        .link {
+            fill: none;
+            stroke: rgb(8, 186, 199);
+            stroke-width: 2px;
+        }
+        
+        .flex-container {
+            /*background-size:100% 100%;
+            //background-attachment: fixed;*/
+        }
+        
+        .flex-item1 {
+            left: 14vw;
+            width: 75%;
+            height: 9%;
+            top: 2%;
+            position: absolute;
+            opacity: 0.7;
+        }
+        
+        .flex-item2 {
+            left: 35vw;
+            width: 32%;
+            height: 25%;
+            top: 13%;
+            position: absolute;
+            border: 3px solid rgb(20, 183, 233);
+            opacity: 0.7;
+        }
+        
+        .flex-item3 {
+            left: 12vw;
+            width: 58%;
+            top: 42%;
+            height: 10%;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        #show-tree {
+            <!--position: relative;
+            -->left: 1%;
+            top: 2%;
+            height: 100%;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 15vh;
+            border-radius: 6px;
+            opacity: 0.7;
+        }
+        
+        #titlename {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 35px;
+            font-weight: bold;
+            height: 100%;
+            line-height: 10vh;
+            text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+            background: rgb(23, 183, 233);
+            border-radius: 6px;
+        }
+        
+        #textbotton {
+            font-size: 25px;
+            width: 100%;
+            text-align: center;
+            background: none;
+            border-style: none;
+            color: white;
+            height: 20%;
+            top: 80%;
+            line-height: 50%;
+            position: absolute;
+            text-shadow: rgb(34, 34, 34) 2px 2px 3px;
+            background: rgb(23, 183, 233);
+        }
+
+        <!--div#div1 {
+            left: 760px;
+            width: 500px;
+            height: 80px;
+            border-style: solid;
+            border-width: 1px;
+            position: absolute;
+            border: 3px solid #0000CD;
+            opacity: 0.3;
+        }
+        
+        div#div2 {
+            left: 760px;
+            width: 500px;
+            height: 450px;
+            position: absolute;
+            top: 100px;
+            border: 3px solid #73AD21;
+            opacity: 0.7;
+        }
+        
+        div#div3 {
+            width: 735px;
+            height: 543px;
+            position: absolute;
+            border: 3px solid #B22222;
+            opacity: 0;
+        }
+        
+        #user {
+            left: 32vw;
+            width: 20%;
+            height: 25%;
+        }
+        
+        -->

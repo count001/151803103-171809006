@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>学术家族树</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+    <script type="text/javascript" src="tree.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+
+    <div class="bg-container"></div>
+    <div class="flex-container">
+        <div class="flex-item1">
+            <p id="titlename">师生树</p>
+        </div>
+        <div class="flex-item2">
+            <textarea style="background:none;border-style:none;width: 610px;height: 183px;" id="user"></textarea>
+            </br>
+            <button id="textbotton" onClick="CreateTree()">提交文本</button>
+        </div>
+        <div class="flex-item3">
+            <p id="show-tree"></p>
+        </div>
+    </div>
+</body>
+
+</html>
